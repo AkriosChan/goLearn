@@ -7,6 +7,7 @@ type AppTest struct {
 }
 
 func (t *AppTest) Before() {
+	println("Before")
 	println("Set up")
 }
 
